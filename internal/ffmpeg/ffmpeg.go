@@ -7,7 +7,7 @@ import (
 
 // ConvertToMP3 は、指定された WAV ファイルを MP3 に変換します。
 func ConvertToMP3(inputPath, outputPath string) error {
-	fmt.Printf("Converting %s to %s...\n", inputPath, outputPath)
+	fmt.Printf("Converting %s to %s ...\n", inputPath, outputPath)
 
 	cmd := exec.Command("ffmpeg", "-i", inputPath, "-codec:a", "libmp3lame", "-qscale:a", "2", outputPath)
 

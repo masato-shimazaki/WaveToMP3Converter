@@ -5,7 +5,10 @@
             "name": "Launch Main",
             "type": "go",
             "request": "launch",
-            "program": "${workspaceFolder}/cmd/myapp/main.go"
+            "mode": "debug",
+            "program": "${workspaceFolder}/cmd/myapp/main.go",
+            "env": {},
+            "args": []
         },
         {
             "name": "Launch Current File",

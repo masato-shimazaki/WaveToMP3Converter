@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Main",
+            "type": "go",
+            "request": "launch",
+            "program": "${workspaceFolder}/cmd/myapp/main.go"
+        },
+        {
+            "name": "Launch Current File",
+            "type": "go",
+            "request": "launch",
+            "program": "${fileDirname}"
+        }
+    ]
+}

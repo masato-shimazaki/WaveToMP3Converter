@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 
 # ffmpegが既にインストールされているか確認
 if ! command -v ffmpeg &> /dev/null

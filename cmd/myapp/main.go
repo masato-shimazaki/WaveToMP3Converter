@@ -35,9 +35,14 @@ func main() {
 }
 
 func convertFilesInDirectory(directory string) error {
+	fmt.Println("Converting files in directory:", directory)
+
 	return filepath.Walk(directory, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return fmt.Errorf("error accessing path %q: %w", path, err)
+		}
+		if info.IsDir() || info.Name() == ".DS_Store" { // Skip directories and .DS_Store files
+			return nil
 		}
 		if !info.IsDir() {
 			fmt.Println("Processing file:", path)

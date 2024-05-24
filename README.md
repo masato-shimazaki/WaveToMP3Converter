@@ -1,7 +1,7 @@
 
 # WaveToMP3Converter
 
-WaveToMP3Converter is a simple tool for converting WAV files to MP3 files. This project is designed to provide an easy-to-use solution for audio file conversion using C++.
+WaveToMP3Converterは、WAVファイルをMP3ファイルに変換するためのシンプルなツールです。このプロジェクトは、Go言語を使用して音声ファイルの変換を簡単に行えるように設計されています。
 
 ## Features
 
@@ -11,8 +11,8 @@ WaveToMP3Converter is a simple tool for converting WAV files to MP3 files. This 
 
 ## Requirements
 
-- C++ compiler
-- LAME MP3 encoding library
+- Go言語のインストール
+- LAME MP3エンコーディングライブラリ
 
 ## Installation
 

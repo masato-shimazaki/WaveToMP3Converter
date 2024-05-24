@@ -18,10 +18,10 @@ WaveToMP3Converter is a simple tool for converting WAV files to MP3 files. This 
 
 1. **Clone the repository:**
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/masato-shimazaki/WaveToMP3Converter.git
    cd WaveToMP3Converter
-   \`\`\`
+   ```
 
 2. **Install dependencies:**
 
@@ -29,23 +29,23 @@ WaveToMP3Converter is a simple tool for converting WAV files to MP3 files. This 
 
    For example, on Ubuntu, you can install it using:
 
-   \`\`\`bash
+   ``` bash
    sudo apt-get install libmp3lame-dev
-   \`\`\`
+   ```
 
 3. **Build the project:**
 
-   \`\`\`bash
+   ```bash
    make
-   \`\`\`
+   ```
 
 ## Usage
 
 To convert a WAV file to MP3, use the following command:
 
-\`\`\`bash
+```bash
 ./WaveToMP3Converter input.wav output.mp3
-\`\`\`
+```
 
 Replace `input.wav` with the path to your WAV file and `output.mp3` with the desired output file name.
 
